@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <title>JavaScript:Dataproject</title>
+</head>
+
+<body>
+    <h1 class="header mt-4">IPL Chart</h1>
+    <div class="container ">
+        <div class="row  text-center ">
+            <div class="col-md-3  col-6">
+                <button class="btn btn-outline-primary  btn-lg" id="totalruns-btn">Total Runs</button>
+            </div>
+            <div class="col-md-3 col-6">
+                <button class="btn btn-outline-primary btn-lg" id="topsbatman-btn">Top Rcb Batsman</button>
+            </div>
+            <div class="col-md-3 col-6">
+                <button class="btn btn-outline-primary btn-lg" id="umpire-btn">umpire</button>
+            </div>
+            <div class="col-md-3 col-6">
+                <button class="btn btn-outline-primary btn-lg" id="season-btn">Season Matches</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <div class="container">
+        <figure class="highcharts-figure">
+            <div id="graph"></div>
+            <p class="highcharts-description">
+
+            </p>
+        </figure>
+    </div>
+    <div class="container text-center">
+        <a type="button" class="btn btn-outline-success btn-lg download-btn" href="https://www.kaggle.com/manasgarg/ipl/version/5" target="_blank"><i class="fa fa-file" aria-hidden="true"></i> Download CSV</a>
+    </div>
+    
+    <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>

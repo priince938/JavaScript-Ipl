@@ -1,0 +1,15 @@
+*{
+    text-transform: capitalize;
+}
+.header{
+    text-align: center;
+}
+
+.btn{
+    text-transform: capitalize;
+    margin: 10%;
+    border: 0%;
+}
+.download-btn{
+    margin: 0%!important;
+}
