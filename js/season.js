@@ -1,6 +1,6 @@
 export function season() {
     // Fetch the file from given location
-    fetch('http://localhost:8000/python/json/season.json')
+    fetch('python/json/season.json')
         .then(response => response.json()
         )
         .then((data) => {

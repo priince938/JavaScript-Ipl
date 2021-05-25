@@ -1,5 +1,5 @@
 export function umpirefuction() {
-    fetch('http://localhost:8000/python/json/umpire.json')
+    fetch('python/json/umpire.json')
         .then((response) => {
             return response.json()
         })

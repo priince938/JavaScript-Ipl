@@ -1,6 +1,6 @@
 
 export function totalrunsfuction() {
-    fetch('http://localhost:8000/python/json/totalruns.json')
+    fetch('python/json/totalruns.json')
         .then((response) => {
             return response.json()
         })

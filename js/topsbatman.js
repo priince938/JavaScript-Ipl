@@ -1,6 +1,6 @@
 export function topbatsmanfuction() {
     // To fetch the file from given location
-    fetch('http://localhost:8000/python/json/batmanrcb.json')
+    fetch('python/json/batmanrcb.json')
         .then((response) => {
             return response.json()
         })
